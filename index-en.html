@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPECTRIUM</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="preloader">
+        SPECTRIUM
+        <div class="loader"></div>
+    </div>    
+<header class="header">
+    <div class="logo">SPECTRIUM</div>
+
+    <nav class="menu">
+        <a href="#about-us">About us</a>
+        <a href="#our-projects">Projects</a>
+        <a href="#donat">Donate</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="lang-switcher">
+        <span id="en-lang" class="active">EN</span>
+        <span id="ua-lang">UA</span>
+    </div>
+
+    <div class="burger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+<!-- Section "About us" under the header -->
+<section id="about-us" class="about-us">
+    <div class="about-text">
+        <h2 id="hover-title">Public Organization "SPECTRIUM"</h2>
+        <p>A modern platform to unite citizens, experts, and opinion leaders...</p>
+        <p><strong>About us</strong></p>
+        <p>Public Organization "SPECTRIUM" is a modern platform created to unite active citizens, experts, and opinion leaders for the development of society and the implementation of innovative social solutions. Our activities aim to stimulate open dialogue, support initiatives that address current social challenges, and create conditions for the development of culture, education, and social interaction.</p>
+    </div>
+    <div class="about-photo">
+        <img src="/img/piple.jpg" alt="Photo of SPECTRIUM">
+    </div>
+</section>
+
+<section class="empty-black-section">
+    <h2 class="background-text">Spectrium</h2>
+</section>
+
+<section id="our-projects" class="our-projects">
+    <h2>Our Projects</h2>
+
+    <div class="projects-container">
+        <div class="project-item">
+            <img src="/img/rozminuvanya.jpg">
+            <p>Mine Clearance</p>
+        </div>
+        <div class="project-item">
+            <img src="/img/osvita.jpg">
+            <p>Technical Education Development</p>
+        </div>
+        <div class="project-item">
+            <img src="/img/ecology.jpg">
+            <p>Ecology</p>
+        </div>
+    </div>
+</section>
+
+<section class="empty-black-section2">
+    <h2 class="background-text">Spectrium</h2>
+</section>
+
+<section class="stats-section">
+    <div class="stat-item">
+        <h2 data-target="100">0</h2>
+        <p>People trained</p>
+    </div>
+    <div class="stat-item">
+        <h2 data-target="10">0</h2>
+        <p>Square kilometers cleared</p>
+    </div>
+    <div class="stat-item">
+        <h2 data-target="50">0</h2>
+        <p>Square meters of nature restored</p>
+    </div>
+</section>
+
+<section class="empty-black-section3">
+    <h2 class="background-text">Spectrium</h2>
+</section>
+
+<section id="donat" class="support-section">
+    <div class="support-text">
+        <p class="quote">❝Your help is our light in the dark.<br>
+        Support important initiatives with the "SPECTRIUM" PLC!❞</p>
+    </div>
+
+    <div class="support-box">
+        <h3>Support "SPECTRIUM" PLC</h3>
+        <p class="iban">IBAN: ************</p>
+        <p class="comment">Comment: Charity donation</p>
+        <p class="thanks">Your support is important to us. Thank you for your help!</p>
+        <div class="payment-icons">
+            <img src="/icon/privatbank.png" alt="Privat24" class="icon">
+            <img src="/icon/OIP-removebg-preview.png" alt="SWIFT" class="icon">
+            <img src="/icon/monobank.png" alt="Monobank" class="icon">
+            <img src="/icon/paypal.png" alt="PayPal" class="icon">
+    </div>
+</section>
+
+<section class="empty-black-section4">
+    <h2 class="background-text">Spectrium</h2>
+</section>
+
+<section id="gallery" class="gallery">
+    <div class="gallery-container">
+        <button class="prev">&#10094;</button>
+        <div class="gallery-track">
+            <div class="gallery-item"><img src="img/ecology.jpg" alt="Photo 1"></div>
+            <div class="gallery-item"><img src="img/osvita.jpg" alt="Photo 2"></div>
+            <div class="gallery-item"><img src="img/piple.jpg" alt="Photo 3"></div>
+            <div class="gallery-item"><img src="img/rozminuvanya.jpg" alt="Photo 4"></div>
+            <div class="gallery-item"><img src="img/piple.jpg" alt="Photo 5"></div>
+            <div class="gallery-item"><img src="img/ecology.jpg" alt="Photo 1"></div>
+            <div class="gallery-item"><img src="img/osvita.jpg" alt="Photo 2"></div>
+            <div class="gallery-item"><img src="img/piple.jpg" alt="Photo 3"></div>
+            <div class="gallery-item"><img src="img/rozminuvanya.jpg" alt="Photo 4"></div>
+            <div class="gallery-item"><img src="img/ecology.jpg" alt="Photo 5"></div>
+        </div>
+        <button class="next">&#10095;</button>
+    </div>
+</section>
+
+<footer>
+    <div id="contact" class="footer-container">
+        <div class="footer-email">
+            <p>Gmail: <a href="mailto:gopspektrium@gmail.com">gopspektrium@gmail.com</a></p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="/icon/appstore.png" alt="App Store"></a>
+            <a href="#"><img src="/icon/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/icon/youtube.png" alt="YouTube"></a>
+            <a href="https://t.me/gospectrium"><img src="/icon/telegram.png" alt="Telegram"></a>
+            <a href="#"><img src="/icon/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 SPECTRIUM PLC</p>
+        </div>
+    </div>
+</footer>
+
+<script src="spectrium.js"></script>
+<script src="stats-setion.js"></script>
+<script src="text-css.js"></script>
+<script src="swipe.js"></script>
+<script src="scripts.js"></script>
+<script src="photo.js"></script>
+<script src="lang-switcher.js"></script>
+</body>
+</html>
+
+
+
